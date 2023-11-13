@@ -1,0 +1,112 @@
+@charset "utf-8";
+
+@font-face {
+    font-family: fontes;
+    src: url(fontes/barbie/Barbie.otf);
+}
+header {
+    text-align: center;
+    background-color: #ff20a2;
+    color: rgb(255, 255, 255);
+    padding-bottom: 3%;
+   
+   
+}
+
+
+
+header h1 {
+    font-family: fontes;
+    letter-spacing: 3px;
+}
+
+
+
+h1 {
+    padding-top: 5%;
+}
+
+h2 {
+    text-align: justify;
+    font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+h3 {
+    text-align: center;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ff81cb;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    gap: 2em;
+    background-color: #ffffff;
+    
+    /*margin-bottom: 2em;*/ }
+
+    .card h3 {
+        
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        font-size: 30px;
+    }
+    
+    .card div {
+        padding: 2em;
+    }
+    
+    .card:nth-child(even) img {
+        order: 2;
+    }
+
+    .card p {
+        text-align: center;
+    }
+
+    .card img {
+        margin-left: 38%;
+    }
+
+
+/*.galeria:hover div:not(:hover) {
+
+
+    filter: drop-shadow(16px 16px 20px rgb(167, 167, 196));
+    
+} */
+
+p {
+    text-align: justify;
+    text-align: center;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+
+    
+}
+
+div p {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+img {
+    height: 500px;
+    width: 400px;
+}
+
+footer {
+    font-size: 20px;
+    text-align: center;
+    background-color: #ff20a2;
+    color: #ffffff;
+}
+
+
+
+    
+
+
+
